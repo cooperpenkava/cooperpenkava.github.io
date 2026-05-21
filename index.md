@@ -3,28 +3,26 @@ layout: home
 title: Home
 ---
 
-
 <div class="two-column">
   <div class="photo-column">
     {% include random-photo.html %}
   </div>
+  
   <div class="menu-column">
-    <!-- Your existing content goes here -->
+    # Hi, I'm Cooper
+    
+    [Your bio text here]
+    
+    ---
+    
+    ## Featured Projects
+    
+    - [Project 1](/project1/)
+    - [Project 2](/project2/)
+    - [Project 3](/project3/)
+    
+    ---
+    
+    [View all projects →](/projects/)
   </div>
 </div>
-
-<!-- Any additional content after the columns -->
-# Hi, I'm Cooper
-
-...
-
----
-
-## Featured Projects
-
-...
-
----
-
-
-[View all projects →](/projects/)
