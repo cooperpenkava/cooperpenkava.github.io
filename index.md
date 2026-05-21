@@ -77,8 +77,6 @@ title: Home
       <li><a href="/project3/">Project 3</a></li>
     </ul>
     
-    <hr>
-    
     <p><a href="/projects/">View all projects →</a></p>
     <p><a href="/creative/">See my creative endeavors →</a></p>
   </div>
