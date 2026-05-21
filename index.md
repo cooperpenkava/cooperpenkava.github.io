@@ -25,30 +25,6 @@ title: Home
     min-width: 250px;
   }
   
-  /* Custom navigation styles - vertical layout */
-  .custom-nav ul {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    list-style: none;
-    padding: 0;
-    margin: 0 0 1.5rem 0;
-  }
-  
-  .custom-nav li {
-    margin: 0;
-  }
-  
-  .custom-nav a {
-    display: inline-block;
-    padding: 0.25rem 0;
-    text-decoration: none;
-  }
-  
-  .custom-nav a:hover {
-    text-decoration: underline;
-  }
-  
   /* Photo styles */
   .profile-photo {
     width: 100%;
@@ -90,7 +66,7 @@ title: Home
   </div>
   
   <div class="menu-column">
-    <p>I'm a Mechanical Engineer studying at Olin College of Engineering. I want to make tools that help build a better world. I'm also passionate about exploring the world through creativity.</p>
+    <p>I'm a Mechanical Engineer studying at Olin College of Engineering. I want to make tools that help build a better world. I'm also passionate about exploring the world through my creativity.</p>
     
     <hr>
     
