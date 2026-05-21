@@ -16,11 +16,27 @@ title: Home
     min-width: 250px;
   }
   
-  /* DEBUG: Turn the menu bright red so we can see it */
-  .menu-column ul {
-    background: red !important;
-    column-count: 2 !important;
-    column-gap: 2rem !important;
+  /* Method 2: Style the menu inside the right column */
+  .menu-column nav ul {
+    column-count: 2;
+    column-gap: 2rem;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .menu-column nav ul li {
+    break-inside: avoid;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Optionally hide the original theme menu */
+  .site-header nav, 
+  .sidebar nav,
+  .menu:not(.menu-column .menu) {
+    display: none !important;
   }
   
   /* Photo styles */
@@ -34,47 +50,45 @@ title: Home
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     cursor: pointer;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
   }
+  
+  .refresh-button:hover {
+    background: #e0e0e0;
+  }
+</style>
 
-  /* Method 1: Style the theme's existing navigation menu */
-  .site-nav ul,
-  .menu ul,
-  nav:first-of-type ul {
-    column-count: 2 !important;
-    column-gap: 2rem !important;
-    list-style: none !important;
-    padding-left: 0 !important;
-    margin-bottom: 1rem !important;
-  }
+<div class="two-column">
+  <div class="photo-column">
+    {% include random-photo.html %}
+  </div>
   
-  .site-nav li,
-  .menu li,
-  nav:first-of-type li {
-    break-inside: avoid !important;
-    margin-bottom: 0.5rem !important;
-  }
-  </style>
-  
-  <div class="two-column">
-    <div class="photo-column">
-      {% include random-photo.html %}
-    </div>
-    
-    <div class="menu-column">
-      <h1>Hi, I'm Cooper</h1>
-      <p>Welcome to my portfolio. I'm passionate about [your interests].</p>
-      
-      <hr>
-      
-      <h2>Featured Projects</h2>
+  <div class="menu-column">
+    <!-- Method 2: Menu placed here -->
+    <nav>
       <ul>
-        <li><a href="/project1/">Project 1</a></li>
-        <li><a href="/project2/">Project 2</a></li>
-        <li><a href="/project3/">Project 3</a></li>
+        {% for item in site.data.menu.entries %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
       </ul>
-      
-      <hr>
-      
-      <p><a href="/projects/">View all projects →</a></p>
-    </div>
+    </nav>
+    
+    <h1>Hi, I'm Cooper</h1>
+    <p>Welcome to my portfolio. I'm passionate about [your interests].</p>
+    
+    <hr>
+    
+    <h2>Featured Projects</h2>
+    <ul>
+      <li><a href="/project1/">Project 1</a></li>
+      <li><a href="/project2/">Project 2</a></li>
+      <li><a href="/project3/">Project 3</a></li>
+    </ul>
+    
+    <hr>
+    
+    <p><a href="/projects/">View all projects →</a></p>
+  </div>
 </div>
