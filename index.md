@@ -4,39 +4,55 @@ title: Home
 ---
 
 <style>
-  /* Shrink or hide the navigation menu area */
-  .site-nav,
+  /* Drastically reduce navigation menu space */
+  .site-nav, 
   .menu,
-  nav:first-of-type {
-    position: absolute !important;
-    top: 10px !important;
-    right: 20px !important;
+  nav {
     margin: 0 !important;
     padding: 0 !important;
-    background: transparent !important;
+    line-height: 1 !important;
   }
   
-  /* Make the menu horizontal and compact */
   .site-nav ul,
   .menu ul,
-  nav:first-of-type ul {
+  nav ul {
+    margin: 0 !important;
+    padding: 5px 0 !important;
     display: flex !important;
-    gap: 1.5rem !important;
-    list-style: none !important;
+    flex-wrap: wrap !important;
+    gap: 10px 20px !important;
+    justify-content: flex-start !important;
+  }
+  
+  .site-nav li,
+  .menu li,
+  nav li {
     margin: 0 !important;
     padding: 0 !important;
   }
   
-  /* Add some top padding to body so content doesn't hide under absolute menu */
-  body {
-    padding-top: 40px !important;
+  .site-nav a,
+  .menu a,
+  nav a {
+    padding: 0 !important;
+    font-size: 0.9rem !important;
   }
   
-  /* Main two-column layout for content */
+  /* Remove any containers that add space */
+  .wrapper,
+  .main,
+  .content,
+  header {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  
+  /* Main two-column layout */
   .two-column {
     display: flex;
     gap: 3rem;
     flex-wrap: wrap;
+    margin-top: 10px !important;
   }
   
   .photo-column, .menu-column {
