@@ -1,0 +1,9 @@
+entries:
+  - title: Home
+    url: /
+
+  - title: Projects
+    url: /projects/
+
+  - title: Contact
+    url: /contact/
