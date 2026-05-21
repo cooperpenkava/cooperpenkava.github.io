@@ -2,8 +2,11 @@ entries:
   - title: Home
     url: /
 
-  - title: Projects
+  - title: Engineering Projects
     url: /projects/
+    
+  - title: Creative Endeavors
+    url: /creative/
 
   - title: Contact
     url: /contact/
