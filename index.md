@@ -4,34 +4,13 @@ title: Home
 ---
 
 <style>
-  /* Force the navigation menu to be horizontal BUT contained */
-  .site-nav ul,
-  .menu ul,
-  nav ul {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 1rem !important;
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 0 1rem 0 !important;
-  }
-  
-  /* Make each bullet only as wide as its content */
-  .site-nav li,
-  .menu li,
-  nav li {
-    display: inline-block !important;
-    width: auto !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  
-  /* Remove any block-level styling */
-  .site-nav a,
-  .menu a,
-  nav a {
-    display: inline-block !important;
-    white-space: nowrap !important;
+  /* Hide the theme's default navigation */
+  .site-nav, 
+  .main-nav,
+  header nav,
+  .header nav,
+  .site-header nav {
+    display: none !important;
   }
   
   /* Main two-column layout */
@@ -44,6 +23,30 @@ title: Home
   .photo-column, .menu-column {
     flex: 1;
     min-width: 250px;
+  }
+  
+  /* Custom navigation styles - vertical layout */
+  .custom-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  .custom-nav li {
+    margin: 0;
+  }
+  
+  .custom-nav a {
+    display: inline-block;
+    padding: 0.25rem 0;
+    text-decoration: none;
+  }
+  
+  .custom-nav a:hover {
+    text-decoration: underline;
   }
   
   /* Photo styles */
@@ -70,22 +73,16 @@ title: Home
   .menu-column h1:first-of-type {
     margin-top: 0;
   }
-  
-  /* Make navigation container respect column width */
-  .photo-column nav:first-of-type {
-    margin-bottom: 1.5rem;
-  }
 </style>
 
 <div class="two-column">
   <div class="photo-column">
-    <!-- Navigation moved here -->
-    <nav>
+    <!-- Navigation pulled from _config.yml -->
+    <nav class="custom-nav">
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/engineering/">Engineering Projects</a></li>
-        <li><a href="/creative/">Creative Endeavors</a></li>
-        <!-- Add more navigation items as needed -->
+        {% for item in site.navigation %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
       </ul>
     </nav>
     
