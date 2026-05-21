@@ -4,7 +4,7 @@ title: Home
 ---
 
 <style>
-  /* Main two-column layout */
+  /* Main two-column layout for content */
   .two-column {
     display: flex;
     gap: 3rem;
@@ -16,27 +16,22 @@ title: Home
     min-width: 250px;
   }
   
-  /* Method 2: Style the menu inside the right column */
-  .menu-column nav ul {
-    column-count: 2;
-    column-gap: 2rem;
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #eee;
+  /* METHOD 1: Style the existing theme navigation menu in two columns */
+  .site-nav ul,
+  .menu ul,
+  nav:first-of-type ul {
+    column-count: 2 !important;
+    column-gap: 2rem !important;
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin-bottom: 1rem !important;
   }
   
-  .menu-column nav ul li {
-    break-inside: avoid;
-    margin-bottom: 0.5rem;
-  }
-  
-  /* Optionally hide the original theme menu */
-  .site-header nav, 
-  .sidebar nav,
-  .menu:not(.menu-column .menu) {
-    display: none !important;
+  .site-nav li,
+  .menu li,
+  nav:first-of-type li {
+    break-inside: avoid !important;
+    margin-bottom: 0.5rem !important;
   }
   
   /* Photo styles */
@@ -44,6 +39,7 @@ title: Home
     width: 100%;
     height: auto;
     border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
   
   .refresh-button {
@@ -58,6 +54,11 @@ title: Home
   .refresh-button:hover {
     background: #e0e0e0;
   }
+  
+  /* Optional: Add some spacing for better readability */
+  .menu-column h1:first-of-type {
+    margin-top: 0;
+  }
 </style>
 
 <div class="two-column">
@@ -66,15 +67,6 @@ title: Home
   </div>
   
   <div class="menu-column">
-    <!-- Method 2: Menu placed here -->
-    <nav>
-      <ul>
-        {% for item in site.data.menu.entries %}
-          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-    
     <h1>Hi, I'm Cooper</h1>
     <p>Welcome to my portfolio. I'm passionate about [your interests].</p>
     
