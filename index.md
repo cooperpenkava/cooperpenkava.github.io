@@ -4,6 +4,34 @@ title: Home
 ---
 
 <style>
+  /* Shrink or hide the navigation menu area */
+  .site-nav,
+  .menu,
+  nav:first-of-type {
+    position: absolute !important;
+    top: 10px !important;
+    right: 20px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+  }
+  
+  /* Make the menu horizontal and compact */
+  .site-nav ul,
+  .menu ul,
+  nav:first-of-type ul {
+    display: flex !important;
+    gap: 1.5rem !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* Add some top padding to body so content doesn't hide under absolute menu */
+  body {
+    padding-top: 40px !important;
+  }
+  
   /* Main two-column layout for content */
   .two-column {
     display: flex;
@@ -14,24 +42,6 @@ title: Home
   .photo-column, .menu-column {
     flex: 1;
     min-width: 250px;
-  }
-  
-  /* METHOD 1: Style the existing theme navigation menu in two columns */
-  .site-nav ul,
-  .menu ul,
-  nav:first-of-type ul {
-    column-count: 2 !important;
-    column-gap: 2rem !important;
-    list-style: none !important;
-    padding-left: 0 !important;
-    margin-bottom: 1rem !important;
-  }
-  
-  .site-nav li,
-  .menu li,
-  nav:first-of-type li {
-    break-inside: avoid !important;
-    margin-bottom: 0.5rem !important;
   }
   
   /* Photo styles */
@@ -55,7 +65,6 @@ title: Home
     background: #e0e0e0;
   }
   
-  /* Optional: Add some spacing for better readability */
   .menu-column h1:first-of-type {
     margin-top: 0;
   }
