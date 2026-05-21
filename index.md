@@ -4,6 +4,15 @@ title: Home
 ---
 
 <style>
+
+    /* DEBUG: Show me what's creating space */
+  * {
+    outline: 1px solid rgba(255,0,0,0.1);
+  }
+  
+  .site-nav, .menu, nav, header, .wrapper, .main, .content {
+    background: rgba(255,255,0,0.2) !important;
+  }
   /* Drastically reduce navigation menu space */
   .site-nav, 
   .menu,
