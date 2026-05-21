@@ -70,7 +70,7 @@ title: Home
     
     <hr>
     
-    <h2>Featured Projects</h2>
+    <h2>Projects I'm Proud Of</h2>
     <ul>
       <li><a href="/project1/">Project 1</a></li>
       <li><a href="/project2/">Project 2</a></li>
