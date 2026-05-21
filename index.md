@@ -4,56 +4,42 @@ title: Home
 ---
 
 <style>
-
-    /* DEBUG: Show me what's creating space */
-  * {
-    outline: 1px solid rgba(255,0,0,0.1);
-  }
-  
-  .site-nav, .menu, nav, header, .wrapper, .main, .content {
-    background: rgba(255,255,0,0.2) !important;
-  }
-  /* Drastically reduce navigation menu space */
-  .site-nav, 
-  .menu,
-  nav {
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 1 !important;
-  }
-  
+  /* Force the navigation menu to be horizontal */
   .site-nav ul,
   .menu ul,
   nav ul {
-    margin: 0 !important;
-    padding: 5px 0 !important;
     display: flex !important;
     flex-wrap: wrap !important;
-    gap: 10px 20px !important;
-    justify-content: flex-start !important;
+    gap: 1.5rem !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 0 1rem 0 !important;
   }
   
+  /* Make each bullet only as wide as its content */
   .site-nav li,
   .menu li,
   nav li {
+    display: inline-block !important;
+    width: auto !important;
     margin: 0 !important;
     padding: 0 !important;
   }
   
+  /* Remove any block-level styling */
   .site-nav a,
   .menu a,
   nav a {
-    padding: 0 !important;
-    font-size: 0.9rem !important;
+    display: inline-block !important;
+    white-space: nowrap !important;
   }
   
-  /* Remove any containers that add space */
-  .wrapper,
-  .main,
-  .content,
-  header {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+  /* Reduce overall navigation container space */
+  .site-nav,
+  .menu,
+  nav:first-of-type {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
   }
   
   /* Main two-column layout */
@@ -61,7 +47,6 @@ title: Home
     display: flex;
     gap: 3rem;
     flex-wrap: wrap;
-    margin-top: 10px !important;
   }
   
   .photo-column, .menu-column {
