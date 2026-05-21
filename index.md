@@ -16,20 +16,20 @@ title: Home
     min-width: 250px;
   }
   
-  /* Multi-column menu - THIS IS THE NEW ADDITION */
-  .menu-column .menu {
+  /* TWO-COLUMN MENU - This targets your plain ul */
+  .menu-column ul {
     column-count: 2;
     column-gap: 2rem;
     list-style: none;
     padding-left: 0;
   }
   
-  .menu-column .menu li {
+  .menu-column ul li {
     break-inside: avoid;
     margin-bottom: 0.5rem;
   }
   
-  /* Your existing photo styles */
+  /* Photo styles */
   .profile-photo {
     width: 100%;
     height: auto;
@@ -40,6 +40,13 @@ title: Home
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     cursor: pointer;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .refresh-button:hover {
+    background: #e0e0e0;
   }
 </style>
 
