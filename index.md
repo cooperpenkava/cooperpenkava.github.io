@@ -4,6 +4,7 @@ title: Home
 ---
 
 <style>
+  /* Main two-column layout */
   .two-column {
     display: flex;
     gap: 3rem;
@@ -15,45 +16,30 @@ title: Home
     min-width: 250px;
   }
   
+  /* Multi-column menu - THIS IS THE NEW ADDITION */
+  .menu-column .menu {
+    column-count: 2;
+    column-gap: 2rem;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .menu-column .menu li {
+    break-inside: avoid;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Your existing photo styles */
   .profile-photo {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
   
   .refresh-button {
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    background: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .refresh-button:hover {
-    background: #e0e0e0;
-  }
-
-  /* Make the menu items display in two columns */
-  .menu-column .menu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem 1rem;
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  /* Remove default bullet points */
-  .menu-column .menu li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Optional: Add a subtle border between columns */
-  .menu-column .menu li:nth-child(even) {
-    border-left: 1px solid #ddd;
-    padding-left: 1rem;
   }
 </style>
 
