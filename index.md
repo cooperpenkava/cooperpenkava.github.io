@@ -22,7 +22,6 @@ title: Home
     cursor: pointer;
   }
   
-  /* Optional: make sure images fit */
   .profile-photo {
     max-width: 100%;
     height: auto;
@@ -30,27 +29,28 @@ title: Home
 </style>
 
 <div class="two-column">
-  <div class="photo-column" markdown="1">
+  <div class="photo-column">
     <!-- {% include random-photo.html %} -->
-    <p>Photo will go here</p>
+    <p>Photo will go here temporarily</p>
   </div>
   
-  <div class="menu-column" markdown="1">
+  <div class="menu-column">
+    <h1>Hi, I'm Cooper</h1>
     
-    # Hi, I'm Cooper
+    <p>Welcome to my portfolio.</p>
     
-    Welcome to my portfolio. I'm a [your role] passionate about [your interests].
+    <hr>
     
-    ---
+    <h2>Featured Projects</h2>
     
-    ## Featured Projects
+    <ul>
+      <li><a href="/project1/">Project 1</a></li>
+      <li><a href="/project2/">Project 2</a></li>
+      <li><a href="/project3/">Project 3</a></li>
+    </ul>
     
-    - [Project Name 1](/project1/)
-    - [Project Name 2](/project2/)
-    - [Project Name 3](/project3/)
+    <hr>
     
-    ---
-    
-    [View all projects →](/projects/)
+    <p><a href="/projects/">View all projects →</a></p>
   </div>
 </div>
