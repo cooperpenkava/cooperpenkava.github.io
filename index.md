@@ -16,17 +16,11 @@ title: Home
     min-width: 250px;
   }
   
-  /* TWO-COLUMN MENU - This targets your plain ul */
+  /* DEBUG: Turn the menu bright red so we can see it */
   .menu-column ul {
-    column-count: 2;
-    column-gap: 2rem;
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .menu-column ul li {
-    break-inside: avoid;
-    margin-bottom: 0.5rem;
+    background: red !important;
+    column-count: 2 !important;
+    column-gap: 2rem !important;
   }
   
   /* Photo styles */
@@ -40,13 +34,6 @@ title: Home
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    background: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .refresh-button:hover {
-    background: #e0e0e0;
   }
 </style>
 
