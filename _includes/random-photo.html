@@ -1,0 +1,42 @@
+{% assign professional_photo = "/images/firstphoto.jpg" %}
+
+<div class="photo-container">
+  <img src="{{ professional_photo | relative_url }}" 
+       alt="Cooper" 
+       class="profile-photo" 
+       id="profile-photo"
+       style="width: 100%; max-width: 400px; border-radius: 8px;">
+  
+  <button onclick="changePhoto()" class="refresh-button" style="margin-top: 1rem; padding: 0.5rem 1rem; cursor: pointer;">
+    Show another photo →
+  </button>
+</div>
+
+<script>
+  // List your actual photo paths here
+  const randomImages = [
+    "/images/others/photo1.jpg",
+    "/images/others/photo2.jpg",
+    "/images/others/photo3.jpg",
+    "/images/others/photo4.jpg",
+    "/images/others/photo5.jpg",
+  ];
+  
+  let showingProfessional = true;
+  const professionalPhoto = "/images/firstphoto.jpg";
+  
+  function changePhoto() {
+    const imgElement = document.getElementById('profile-photo');
+    
+    if (showingProfessional) {
+      // Switch to a random photo
+      const randomIndex = Math.floor(Math.random() * randomImages.length);
+      imgElement.src = randomImages[randomIndex];
+      showingProfessional = false;
+    } else {
+      // Switch to another random photo
+      const randomIndex = Math.floor(Math.random() * randomImages.length);
+      imgElement.src = randomImages[randomIndex];
+    }
+  }
+</script>
