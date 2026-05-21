@@ -4,13 +4,13 @@ title: Home
 ---
 
 <style>
-  /* Force the navigation menu to be horizontal */
+  /* Force the navigation menu to be horizontal BUT contained */
   .site-nav ul,
   .menu ul,
   nav ul {
     display: flex !important;
     flex-wrap: wrap !important;
-    gap: 1.5rem !important;
+    gap: 1rem !important;
     list-style: none !important;
     padding: 0 !important;
     margin: 0 0 1rem 0 !important;
@@ -32,14 +32,6 @@ title: Home
   nav a {
     display: inline-block !important;
     white-space: nowrap !important;
-  }
-  
-  /* Reduce overall navigation container space */
-  .site-nav,
-  .menu,
-  nav:first-of-type {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
   }
   
   /* Main two-column layout */
@@ -78,10 +70,25 @@ title: Home
   .menu-column h1:first-of-type {
     margin-top: 0;
   }
+  
+  /* Make navigation container respect column width */
+  .photo-column nav:first-of-type {
+    margin-bottom: 1.5rem;
+  }
 </style>
 
 <div class="two-column">
   <div class="photo-column">
+    <!-- Navigation moved here -->
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/engineering/">Engineering Projects</a></li>
+        <li><a href="/creative/">Creative Endeavors</a></li>
+        <!-- Add more navigation items as needed -->
+      </ul>
+    </nav>
+    
     {% include random-photo.html %}
   </div>
   
