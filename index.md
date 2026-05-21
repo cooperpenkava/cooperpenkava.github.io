@@ -34,6 +34,27 @@ title: Home
   .refresh-button:hover {
     background: #e0e0e0;
   }
+
+  /* Make the menu items display in two columns */
+  .menu-column .menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem 1rem;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  /* Remove default bullet points */
+  .menu-column .menu li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Optional: Add a subtle border between columns */
+  .menu-column .menu li:nth-child(even) {
+    border-left: 1px solid #ddd;
+    padding-left: 1rem;
+  }
 </style>
 
 <div class="two-column">
