@@ -90,7 +90,7 @@ title: Home
   </div>
   
   <div class="menu-column">
-    <p>Hey! I'm Cooper Penkava, and I'm a Mechanical Engineer studying at Olin College of Engineering. I want to make tools that help build a better world.</p>
+    <p>I'm a Mechanical Engineer studying at Olin College of Engineering. I want to make tools that help build a better world. I'm also passionate about exploring the world through creativity.</p>
     
     <hr>
     
