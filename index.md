@@ -3,6 +3,26 @@ layout: home
 title: Home
 ---
 
+<style>
+  /* Your custom two-column styles */
+  .two-column {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .photo-column, .menu-column {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .refresh-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+</style>
+
 <div class="two-column">
   <div class="photo-column">
     {% include random-photo.html %}
@@ -10,19 +30,6 @@ title: Home
   
   <div class="menu-column">
     # Hi, I'm Cooper
-    
-    [Your bio text here]
-    
-    ---
-    
-    ## Featured Projects
-    
-    - [Project 1](/project1/)
-    - [Project 2](/project2/)
-    - [Project 3](/project3/)
-    
-    ---
-    
-    [View all projects →](/projects/)
+    <!-- rest of your content -->
   </div>
 </div>
