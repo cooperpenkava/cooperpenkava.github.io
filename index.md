@@ -90,8 +90,7 @@ title: Home
   </div>
   
   <div class="menu-column">
-    <h1>Hi, I'm Cooper</h1>
-    <p>Welcome to my portfolio. I'm passionate about [your interests].</p>
+    <p>Hey! I'm Cooper Penkava, and I'm a Mechanical Engineer studying at Olin College of Engineering. I want to make tools that help build a better world.</p>
     
     <hr>
     
