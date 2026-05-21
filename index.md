@@ -104,5 +104,6 @@ title: Home
     <hr>
     
     <p><a href="/projects/">View all projects →</a></p>
+    <p><a href="/creative/">See my creative endeavors →</a></p>
   </div>
 </div>
