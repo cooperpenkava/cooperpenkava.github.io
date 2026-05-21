@@ -1,5 +1,3 @@
-remote_theme: jekyll/minima@v2.5.1
-plugins:
-  - jekyll-remote-theme
-title: test1
-description: test2
+remote_theme: riggraz/no-style-please
+title: Cooper Penkava
+description: Portfolio
