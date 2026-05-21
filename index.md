@@ -14,6 +14,17 @@ title: Home
     flex: 1;
     min-width: 250px;
   }
+  
+  /* TEMPORARY - Add colored backgrounds to see the columns */
+  .photo-column {
+    background: lightblue;
+    padding: 1rem;
+  }
+  
+  .menu-column {
+    background: lightgreen;
+    padding: 1rem;
+  }
 </style>
 
 <div class="two-column">
