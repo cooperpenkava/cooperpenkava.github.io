@@ -1,5 +1,5 @@
 remote_theme: jekyll/minima@v2.5.1
 plugins:
   - jekyll-remote-theme
-title: Your Site Title Here
-description: Your site description goes here.
+title: test1
+description: test2
