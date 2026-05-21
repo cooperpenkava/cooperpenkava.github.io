@@ -21,15 +21,36 @@ title: Home
     padding: 0.5rem 1rem;
     cursor: pointer;
   }
+  
+  /* Optional: make sure images fit */
+  .profile-photo {
+    max-width: 100%;
+    height: auto;
+  }
 </style>
 
 <div class="two-column">
-  <div class="photo-column">
-    {% include random-photo.html %}
+  <div class="photo-column" markdown="1">
+    <!-- {% include random-photo.html %} -->
+    <p>Photo will go here</p>
   </div>
   
-  <div class="menu-column">
+  <div class="menu-column" markdown="1">
+    
     # Hi, I'm Cooper
-    <!-- rest of your content -->
+    
+    Welcome to my portfolio. I'm a [your role] passionate about [your interests].
+    
+    ---
+    
+    ## Featured Projects
+    
+    - [Project Name 1](/project1/)
+    - [Project Name 2](/project2/)
+    - [Project Name 3](/project3/)
+    
+    ---
+    
+    [View all projects →](/projects/)
   </div>
 </div>
