@@ -10,11 +10,13 @@ permalink: /projects/
 
 <p><a href="/projects/motor-tester">Robotic Arm Motor Test Rig →</a></p>
 
-<p><a href="/projects/pump">Pump up the Jam →</a></p>
+<p><a href="/projects/pump">Pump up the Jam!!! →</a></p>
 
 <p><a href="/projects/teapot">The Case of the Leaky Teapot →</a></p>
 
 <p><a href="/projects/ode45">I (re)made ode45! →</a></p>
+
+<p><a href="/projects/swish">A swish, every time. →</a></p>
 
 <p><a href="/projects/scanner">3D Scanner in 2 Weeks →</a></p>
 
