@@ -85,3 +85,5 @@ permalink: /projects/
   display: block;
 }
 </style>
+
+<p><a href="/">← Back to Home</a></p>
