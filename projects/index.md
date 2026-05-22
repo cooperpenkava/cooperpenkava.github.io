@@ -6,6 +6,8 @@ permalink: /projects/
 ## projects
 <p><a href="/projects/stirling-engine">Stirling Engine →</a></p>
 
+<p><a href="/projects/COUCH">Control Oriented Universal Chassis Hub (COUCH) Lab →</a></p>
+
 <p><a href="/projects/motor-tester">Robotic Arm Motor Test Rig →</a></p>
 
 <p><a href="/projects/pump">Pump up the Jam →</a></p>
