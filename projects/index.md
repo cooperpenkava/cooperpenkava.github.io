@@ -4,10 +4,8 @@ title: My Projects
 permalink: /projects/
 ---
 
-## project
+## projects
+<p><a href="/projects/stirling-engine">Stirling Engine →</a></p>
+<p><a href="/motor-tester/">Robotic Arm Test Rig →</a></p>
 
-...
 
-## learning
-
-...
