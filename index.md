@@ -69,7 +69,6 @@ title: Home
     <p>I'm a Mechanical Engineer studying at Olin College of Engineering. I want to make tools that help build a better world. I'm also passionate about exploring the world through my creativity.</p>
     
     <hr>
-    
     <h2>My Favorite Projects</h2>
     <ul>
       <li><a href="/projects/stirling-engine">Custom-Built Stirling Engine</a></li>
