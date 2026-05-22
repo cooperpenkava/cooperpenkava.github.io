@@ -70,11 +70,11 @@ title: Home
     
     <hr>
     
-    <h2>Projects I'm Proud Of</h2>
+    <h2>My Favorite Projects</h2>
     <ul>
-      <li><a href="/project1/">Project 1</a></li>
-      <li><a href="/project2/">Project 2</a></li>
-      <li><a href="/project3/">Project 3</a></li>
+      <li><a href="/projects/stirling-engine/">Custom-Built Stirling Engine</a></li>
+      <li><a href="/projects/motor-tester/">Robotic Arm Test Fixture</a></li>
+      <li><a href="/projects/swish/">Make a Basket Every Time!</a></li>
     </ul>
     
     <p><a href="/projects/">View all projects →</a></p>
