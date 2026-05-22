@@ -72,9 +72,9 @@ title: Home
     
     <h2>My Favorite Projects</h2>
     <ul>
-      <li><a href="/projects/stirling-engine/">Custom-Built Stirling Engine</a></li>
-      <li><a href="/projects/motor-tester/">Robotic Arm Test Fixture</a></li>
-      <li><a href="/projects/swish/">Make a Basket Every Time!</a></li>
+      <li><a href="/projects/stirling-engine">Custom-Built Stirling Engine</a></li>
+      <li><a href="/projects/motor-tester">Robotic Arm Test Fixture</a></li>
+      <li><a href="/projects/swish">Make a Basket Every Time!</a></li>
     </ul>
     
     <p><a href="/projects/">View all projects →</a></p>
