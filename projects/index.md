@@ -62,7 +62,7 @@ permalink: /projects/
 
   <div class="project-item">
     <a href="/projects/rollerskates">Make Your Own Rollerskates →</a>
-    <img src="assets/rollerskates-header.jpg" alt="Make Your Own Rollerskates" class="hover-image">
+    <img src="assets/rollerskate-header.jpg" alt="Make Your Own Rollerskates" class="hover-image">
   </div>
 </div>
 
