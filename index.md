@@ -53,16 +53,10 @@ title: Home
 
 <div class="two-column">
   <div class="photo-column">
-    <!-- Navigation pulled from _config.yml -->
-    <nav class="custom-nav">
-      <ul>
-        {% for item in site.navigation %}
-          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
     
     {% include random-photo.html %}
+
+    <p><a href="/projects/">Check out my old portfolio while I build out this site! →</a></p>
   </div>
   
   <div class="menu-column">
