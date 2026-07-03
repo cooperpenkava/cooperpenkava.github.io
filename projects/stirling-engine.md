@@ -11,3 +11,5 @@ For the heatsink, I worked to maximize the cooling we could get while staying in
 I also helped the team in various other smaller ways. I worked on the CAD (SOLIDWORKS) for the power piston and full assembly, collaborated on the MATLAB Simulink model, and helped to design a portable gas powered ignition source that wouldn't explode and kill us all. :)  
 [Visit our project website for more! →](https://sites.google.com/view/olinstirlingengine/home)
 
+[go back to all projects →](https://cooperpenkava.github.io/projects/)
+
