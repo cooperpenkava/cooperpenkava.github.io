@@ -4,4 +4,6 @@ title: Stirling Engine
 ---
 
 I made a Stirling engine in Mechanical Design!
-https://sites.google.com/view/olinstirlingengine/home
+
+<p><a href="https://sites.google.com/view/olinstirlingengine/home">Visit our project website for more! →</a></p>
+
