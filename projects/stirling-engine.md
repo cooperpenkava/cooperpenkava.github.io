@@ -1,5 +1,6 @@
 ---
-title: Stirling Engine
+layout: page
+title: projects
 ---
 
 I made a Stirling engine in Mechanical Design!
