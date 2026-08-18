@@ -68,46 +68,65 @@ permalink: /projects/
 
 <style>
 .project-item {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;  /* back to tight spacing */
   position: relative;
   display: flex;
-  align-items: center;  /* this centers the image vertically */
-  min-height: 80px;     /* ensures consistent spacing */
+  align-items: center;
+  min-height: 40px;       /* just enough for the text */
 }
 
 .hover-image {
   display: none;
   position: absolute;
-  left: 100%;           /* appears to the right of the link */
-  margin-left: 2rem;
-  max-width: 500px;     /* bigger! */
-  width: 100%;
+  left: calc(100% + 1rem);  /* reduced gap from text */
+  max-width: 400px;         /* your preferred size */
+  width: auto;              /* let the image keep its aspect ratio */
+  max-height: 300px;        /* prevents it from being too tall */
   height: auto;
   border-radius: 8px;
   z-index: 100;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* subtle shadow for depth */
-  top: 50%;             /* center vertically */
-  transform: translateY(-50%); /* perfect vertical centering */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.project-item:hover .hover-image {
-  display: block;
+/* Smart positioning: if image goes off-screen, push it left */
+@media (max-width: 1400px) {
+  .hover-image {
+    left: auto;
+    right: 0;               /* aligns to right edge of container */
+    transform: translateY(-50%) translateX(calc(100% + 1rem));
+  }
 }
 
-/* For mobile responsiveness */
+/* For medium screens - image on the left instead */
+@media (max-width: 1200px) {
+  .project-item {
+    flex-direction: row-reverse; /* image goes on left */
+  }
+  
+  .hover-image {
+    left: auto;
+    right: calc(100% + 1rem);
+    transform: translateY(-50%);
+  }
+}
+
+/* For mobile - back to below the text */
 @media (max-width: 768px) {
   .project-item {
-    display: block;     /* reset flex on mobile */
+    display: block;
     min-height: auto;
+    margin-bottom: 1rem;
   }
   
   .hover-image {
     position: static;
     margin-top: 0.5rem;
-    margin-left: 0;
     max-width: 100%;
-    transform: none;    /* reset transform */
-    top: auto;
+    width: 100%;
+    transform: none;
+    box-shadow: none;
   }
 }
   
