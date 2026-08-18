@@ -1,4 +1,7 @@
-# My Old Portfolio
+---
+layout: page
+title: My Old Portfolio
+---
 This website is an upgrade to my old portfolio, which I made in Canva.
 ![Porfolio - Robotic Arm Test Fixture Page](assets/Cooper_Penkava-Portfolio-FEA_DFM_Integration1.png)
 ![Porfolio - Sprocket FEA and Manufacturing Page](assets/Cooper_Penkava-Portfolio-FEA_DFM_Integration2.png)
