@@ -74,12 +74,14 @@ permalink: /projects/
 
 .hover-image {
   display: none;
-  margin-top: 0.5rem;
-  max-width: 400px;    /* smaller! adjust this value as needed */
-  width: 100%;
+  position: absolute;
+  left: 100%;  /* appears to the right of the link */
+  top: 0;
+  margin-left: 2rem;
+  max-width: 300px;
   height: auto;
   border-radius: 8px;
-  pointer-events: none;
+  z-index: 100;
 }
 
 .project-item:hover .hover-image {
