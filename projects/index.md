@@ -68,25 +68,49 @@ permalink: /projects/
 
 <style>
 .project-item {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   position: relative;
+  display: flex;
+  align-items: center;  /* this centers the image vertically */
+  min-height: 80px;     /* ensures consistent spacing */
 }
 
 .hover-image {
   display: none;
   position: absolute;
-  left: 100%;  /* appears to the right of the link */
-  top: 0;
+  left: 100%;           /* appears to the right of the link */
   margin-left: 2rem;
-  max-width: 300px;
+  max-width: 500px;     /* bigger! */
+  width: 100%;
   height: auto;
   border-radius: 8px;
   z-index: 100;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* subtle shadow for depth */
+  top: 50%;             /* center vertically */
+  transform: translateY(-50%); /* perfect vertical centering */
 }
 
 .project-item:hover .hover-image {
   display: block;
 }
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+  .project-item {
+    display: block;     /* reset flex on mobile */
+    min-height: auto;
+  }
+  
+  .hover-image {
+    position: static;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    max-width: 100%;
+    transform: none;    /* reset transform */
+    top: auto;
+  }
+}
+  
 </style>
 
 <p><a href="/">← Back to Home</a></p>
