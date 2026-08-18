@@ -1,4 +1,7 @@
-# These are my creative endeavors
+---
+layout: page
+title: These are my creative endeavors
+---
 
 <a href="/creative/old-folio">R.I.P. My Old Portfolio</a>
 
