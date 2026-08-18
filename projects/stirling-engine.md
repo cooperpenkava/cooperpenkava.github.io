@@ -2,6 +2,7 @@
 layout: page
 title: Stirling Engine
 ---
+<Skills Used: Thermal System Design, COMSOL Thermal Simulation, Design for Manufacturing and Assembly, Iterative Design Improvement, Ignition System Safety>
 
 I made a Stirling engine in my Mechanical Design class! I was on a team of four, and I worked mostly on the heatsink design and CAD integration. For the engine, our goal was to maximize the power we could get out of the components we had been given and the small budget available to us. 
 
