@@ -68,46 +68,40 @@ permalink: /projects/
 
 <style>
 .project-item {
-  margin-bottom: 0.5rem;  /* back to tight spacing */
+  margin-bottom: 0.5rem;
   position: relative;
   display: flex;
   align-items: center;
-  min-height: 40px;       /* just enough for the text */
+  min-height: 40px;
 }
 
 .hover-image {
   display: none;
   position: absolute;
-  left: calc(100% + 1rem);  /* reduced gap from text */
-  max-width: 400px;         /* your preferred size */
-  width: auto;              /* let the image keep its aspect ratio */
-  max-height: 300px;        /* prevents it from being too tall */
+  left: 100%;
+  margin-left: 1rem;
+  max-width: 350px;
+  width: auto;
+  max-height: 250px;
   height: auto;
   border-radius: 8px;
-  z-index: 100;
+  z-index: 1000;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* Smart positioning: if image goes off-screen, push it left */
+.project-item:hover .hover-image {
+  display: block;
+}
+
+/* If the image would go off the right edge, flip it to the left */
 @media (max-width: 1400px) {
   .hover-image {
     left: auto;
-    right: 0;               /* aligns to right edge of container */
-    transform: translateY(-50%) translateX(calc(100% + 1rem));
-  }
-}
-
-/* For medium screens - image on the left instead */
-@media (max-width: 1200px) {
-  .project-item {
-    flex-direction: row-reverse; /* image goes on left */
-  }
-  
-  .hover-image {
-    left: auto;
-    right: calc(100% + 1rem);
+    right: 100%;
+    margin-right: 1rem;
+    margin-left: 0;
     transform: translateY(-50%);
   }
 }
@@ -123,6 +117,7 @@ permalink: /projects/
   .hover-image {
     position: static;
     margin-top: 0.5rem;
+    margin-right: 0;
     max-width: 100%;
     width: 100%;
     transform: none;
