@@ -79,6 +79,7 @@ permalink: /projects/
   width: 100%;
   height: auto;
   border-radius: 8px;
+  pointer-events: none;
 }
 
 .project-item:hover .hover-image {
