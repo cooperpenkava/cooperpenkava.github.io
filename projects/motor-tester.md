@@ -3,6 +3,13 @@ layout: page
 title: Surgical Robot Motor Test Rig
 ---
 
+_**Skills Used:**_
+ - _**Test Engineering**_
+ - _**Tolerance Stack-ups and Control**_
+ - _**Miniaturization**_
+ - _**Design for Manufacturing and Assembly**_
+ - _**Modular Design**_
+
 In my return internship at Virtual Incision, a surgical robotics company, I designed and fabricated a test rig for the manufacturing line to quickly test a robotic arm's motor torque, cautery connection, and pneumatic seal.
 
 The miniature surgical robot had motors that previously whose torque had only been assumed from line current values. I designed and built a fixture that the manufacturing and quality departments could load any robotic "forearm" into that used a torque sensor to read the throughput of motor output torque required to operate the tool end. I designed the fixture in SOLIDWORKS, created drawings to be submitted to a manufacturing company, and then assembled the fixture in house.
