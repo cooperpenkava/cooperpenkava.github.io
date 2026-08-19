@@ -2,7 +2,13 @@
 layout: page
 title: Control Oriented Universal Chassis Hub (COUCH) Lab
 ---
-***<Skills Used: Power Transmission System Design, Structural Frame Design, Sheet Metal Design for Manufacturing, Low Budget Workarounds>***
+
+_**Skills Used: **_
+_** - Power Transmission System Design**_
+_** - Structural Frame Design
+ - Sheet Metal Design for Manufacturing
+ - Low Budget Workarounds
+ - Multi-disciplinary Collaboration - Space claim, safety, system mechanics, ...**_
 
 As a passion project, two of my friends and I collaborated to make a remote controlled chassis that could hold up to 450 pounds. We aptly put a couch on it and drove it around.
 
