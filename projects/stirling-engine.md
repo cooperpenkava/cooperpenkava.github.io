@@ -2,7 +2,7 @@
 layout: page
 title: Stirling Engine
 ---
-_**Skills Used: **_
+_**Skills Used:**_
  - _**Thermal System Design**_
  - _**COMSOL Thermal Simulation**_
  - _**Design for Manufacturing and Assembly**_
