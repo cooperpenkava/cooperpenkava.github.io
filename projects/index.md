@@ -21,6 +21,16 @@ permalink: /projects/
   </div>
 
   <div class="project-item">
+    <a href="/projects/sprocket">FSAE Car Sprocket Lightweighting →</a>
+    <img src="assets/sprocket-header.jpg" alt="FSAE Car Sprocket Lightweighting" class="hover-image">
+  </div>
+
+  <div class="project-item">
+    <a href="/projects/ode45">I (re)made ode45! →</a>
+    <img src="assets/ode45-header.png" alt="I (re)made ode45!" class="hover-image">
+  </div>
+
+  <div class="project-item">
     <a href="/projects/pump">Pump up the Jam!!! →</a>
     <img src="assets/pump-header.jpg" alt="Pump up the Jam!!!" class="hover-image">
   </div>
@@ -28,11 +38,6 @@ permalink: /projects/
   <div class="project-item">
     <a href="/projects/teapot">The Case of the Leaky Teapot →</a>
     <img src="assets/teapot-header.jpg" alt="The Case of the Leaky Teapot" class="hover-image">
-  </div>
-
-  <div class="project-item">
-    <a href="/projects/ode45">I (re)made ode45! →</a>
-    <img src="assets/ode45-header.png" alt="I (re)made ode45!" class="hover-image">
   </div>
 
   <div class="project-item">
