@@ -12,20 +12,6 @@
   </button>
 </div>
 
-{% assign professional_photo = "/images/firstphoto.jpg" %}
-
-<div class="photo-container">
-  <img src="{{ professional_photo | relative_url }}" 
-       alt="Cooper" 
-       class="profile-photo" 
-       id="profile-photo"
-       style="width: 100%; max-width: 400px; border-radius: 8px;">
-  
-  <button onclick="changePhoto()" class="refresh-button" style="margin-top: 1rem; padding: 0.5rem 1rem; cursor: pointer;">
-    How about another? →
-  </button>
-</div>
-
 <script>
   const randomImages = [
     "/images/others/photo1.jpg",
