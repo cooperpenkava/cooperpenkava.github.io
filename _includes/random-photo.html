@@ -12,8 +12,21 @@
   </button>
 </div>
 
+{% assign professional_photo = "/images/firstphoto.jpg" %}
+
+<div class="photo-container">
+  <img src="{{ professional_photo | relative_url }}" 
+       alt="Cooper" 
+       class="profile-photo" 
+       id="profile-photo"
+       style="width: 100%; max-width: 400px; border-radius: 8px;">
+  
+  <button onclick="changePhoto()" class="refresh-button" style="margin-top: 1rem; padding: 0.5rem 1rem; cursor: pointer;">
+    How about another? →
+  </button>
+</div>
+
 <script>
-  // List your actual photo paths here
   const randomImages = [
     "/images/others/photo1.jpg",
     "/images/others/photo2.jpg",
@@ -32,21 +45,39 @@
     "/images/others/photo15.jpg",
   ];
   
-  let showingProfessional = true;
   const professionalPhoto = "/images/firstphoto.jpg";
+  
+  // Keep track of which random photos we've shown
+  let availableRandomPhotos = [...randomImages];
+  let showingProfessional = true;
   
   function changePhoto() {
     const imgElement = document.getElementById('profile-photo');
     
     if (showingProfessional) {
-      // Switch to a random photo
-      const randomIndex = Math.floor(Math.random() * randomImages.length);
-      imgElement.src = randomImages[randomIndex];
+      // First time switching from professional
+      // Pick a random photo from all available
+      const randomIndex = Math.floor(Math.random() * availableRandomPhotos.length);
+      imgElement.src = availableRandomPhotos[randomIndex];
+      
+      // Remove it so we don't show it again
+      availableRandomPhotos.splice(randomIndex, 1);
       showingProfessional = false;
+      
     } else {
-      // Switch to another random photo
-      const randomIndex = Math.floor(Math.random() * randomImages.length);
-      imgElement.src = randomImages[randomIndex];
+      // Already showing random photos
+      
+      // If we've shown all photos, reshuffle and start over
+      if (availableRandomPhotos.length === 0) {
+        availableRandomPhotos = [...randomImages];
+      }
+      
+      // Pick from remaining unseen photos
+      const randomIndex = Math.floor(Math.random() * availableRandomPhotos.length);
+      imgElement.src = availableRandomPhotos[randomIndex];
+      
+      // Remove it so we don't show it again (until reshuffle)
+      availableRandomPhotos.splice(randomIndex, 1);
     }
   }
 </script>
