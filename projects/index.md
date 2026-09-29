@@ -7,7 +7,7 @@ permalink: /projects/
 <div class="project-list">
   <div class="project-item">
     <a href="/projects/box">CNC Paper Punch →</a>
-    <img src="assets/box-header.jpg" alt="CNC Paper Punch" class="hover-image">
+    <img src="assets/box-images/box-header.jpg" alt="CNC Paper Punch" class="hover-image">
   </div>
   
 <div class="project-list">
