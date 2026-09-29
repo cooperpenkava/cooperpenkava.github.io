@@ -14,7 +14,7 @@ For my Design for Manufacturing class, I and another student made a star shaped 
 
 Given that the two pieces came together to act as a paper punch, we build design requirements around this. Our design needed to:
  - have a positive and negative feature close enough to punch the paper
- - align easily, such that you could slam the top to punch the paper without interference
+ - align easily, such that you could slam the top to punch the paper without interference  
 Additionally, as part of the class, we had additional given requirements. Our design also needed to:
  - be manufacturable from two pieces of 3"x3"x1.25" Aluminum square stock
  - be manufacturable entirely on the CNC Mill
@@ -40,9 +40,3 @@ Part of the requirements for the class was for us to use a force fit for any dow
 
 3. Star Positive/Negative Feature Clearance and Effectiveness
 In order to make a geometry that actually could cut paper put between the two box halves, we needed a fit that was very close. However, due to various factors - the locational deviation from the holes, the deflection of the end mill on both halves, and the locational deviation while making the star geometry - we could not make it too close, or else we would risk interference between the positive and negative geometry. Accounting for the potential locational deviation for each feature along with the tool deflection (calculated with this tool), we determined that a H8/f7 fit was the closest running fit we could achieve confidently. For the sake of CAD, we treated the negative feature as the hole, and just offset its shape by the upper bound of the offset for the hole (the upper bound because tool deflection should leave material behind, so the feature will most likely be smaller than in CAD). We did the opposite for the positive feature (offset by the lower bound of the offset for the shaft).
-
-Additional details to include:
-
-    How much would your parts cost if you used a service like 3DHub (how does it change with quantity, material choice, finish).
-    An estimate of the cycle time required for each operation in the factory, guided by your analysis, assembly of the design, other experience lab, and intuition/research.
-    BOM with materials, COTS, and estimated manufacturing/assembly costs
