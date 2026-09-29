@@ -6,6 +6,12 @@ permalink: /projects/
 
 <div class="project-list">
   <div class="project-item">
+    <a href="/projects/box">CNC Paper Punch →</a>
+    <img src="assets/box-header.jpg" alt="CNC Paper Punch" class="hover-image">
+  </div>
+  
+<div class="project-list">
+  <div class="project-item">
     <a href="/projects/stirling-engine">Stirling Engine →</a>
     <img src="assets/stirling-engine-header.jpg" alt="Stirling Engine" class="hover-image">
   </div>
