@@ -20,8 +20,8 @@ _**Skills Used:**_
   <a href="/assets/box-images/box-2.png" class="glightbox" data-gallery="my-gallery">
     <img src="/assets/box-images/box-2.png" class="thumb" alt="Thumbnail 2">
   </a>
-  <a href="/assets/box-images/PXL_20260921_201221772.jpg" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/box-images/PXL_20260921_201221772.jpg" class="thumb" alt="Thumbnail 3">
+  <a href="/assets/box-images/box-3.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/box-images/box-3.jpg" class="thumb" alt="Thumbnail 3">
   </a>
 </div>
 
