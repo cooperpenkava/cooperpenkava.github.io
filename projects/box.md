@@ -10,6 +10,21 @@ _**Skills Used:**_
  - _**Tolerance Stackups**_
  - _**Technical Drafting**_
 
+<div class="gallery-hero">
+  <a href="/assets/images/big-1.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/images/big-1.jpg" class="hero-main" alt="Main Image">
+  </a>
+  <a href="/assets/images/small-1.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/images/small-1.jpg" class="thumb" alt="Thumbnail 1">
+  </a>
+  <a href="/assets/images/small-2.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/images/small-2.jpg" class="thumb" alt="Thumbnail 2">
+  </a>
+  <a href="/assets/images/small-3.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/images/small-3.jpg" class="thumb" alt="Thumbnail 3">
+  </a>
+</div>
+
 For my Design for Manufacturing class, I and another student made a star shaped paper punch, comprised of a negative and positive feature that went together via two dowel pins.
 
 Given that the two pieces came together to act as a paper punch, we build design requirements around this. Our design needed to:
