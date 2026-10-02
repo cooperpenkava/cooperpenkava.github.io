@@ -11,17 +11,17 @@ _**Skills Used:**_
  - _**Technical Drafting**_
 
 <div class="gallery-hero">
-  <a href="/assets/images/big-1.jpg" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/images/big-1.jpg" class="hero-main" alt="Main Image">
+  <a href="/assets/images/PXL_20260921_201221772.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/images/PXL_20260921_201221772.jpg" class="hero-main" alt="Main Image">
   </a>
-  <a href="/assets/images/small-1.jpg" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/images/small-1.jpg" class="thumb" alt="Thumbnail 1">
+  <a href="/assets/images/PXL_20260921_201221772.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/images/PXL_20260921_201221772.jpg" class="thumb" alt="Thumbnail 1">
   </a>
-  <a href="/assets/images/small-2.jpg" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/images/small-2.jpg" class="thumb" alt="Thumbnail 2">
+  <a href="/assets/images/PXL_20260921_201221772.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/images/PXL_20260921_201221772.jpg" class="thumb" alt="Thumbnail 2">
   </a>
-  <a href="/assets/images/small-3.jpg" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/images/small-3.jpg" class="thumb" alt="Thumbnail 3">
+  <a href="/assets/images/PXL_20260921_201221772.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/images/PXL_20260921_201221772.jpg" class="thumb" alt="Thumbnail 3">
   </a>
 </div>
 
