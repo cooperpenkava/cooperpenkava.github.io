@@ -12,16 +12,16 @@ _**Skills Used:**_
 
 <div class="gallery-hero">
   <a href="{ '/assets/box-images/PXL_20260921_201221772.jpg' | relative_url }}" class="glightbox" data-gallery="my-gallery">
-    <img src="{ '/assets/box-images/PXL_20260921_201221772.jpg' | relative_url }}" class="hero-main" alt="Main Image">
+    <img src="{ '/assets/box-images/PXL_20260921_201221772.jpg' | relative_url }}" class="hero-main" alt="Main Image" data-type="image">
   </a>
   <a href="{ '/assets/box-images/PXL_20260921_201221772.jpg' | relative_url }}" class="glightbox" data-gallery="my-gallery">
-    <img src="{ '/assets/box-images/PXL_20260921_201221772.jpg' | relative_url }}" class="thumb" alt="Thumbnail 1">
+    <img src="{ '/assets/box-images/PXL_20260921_201221772.jpg' | relative_url }}" class="thumb" alt="Thumbnail 1" data-type="image">
   </a>
   <a href="{ '/assets/box-images/PXL_20260921_201221772.jpg' | relative_url }}" class="glightbox" data-gallery="my-gallery">
-    <img src="{ '/assets/box-images/PXL_20260921_201221772.jpg' | relative_url }}" class="thumb" alt="Thumbnail 2">
+    <img src="{ '/assets/box-images/PXL_20260921_201221772.jpg' | relative_url }}" class="thumb" alt="Thumbnail 2" data-type="image">
   </a>
   <a href="{ '/assets/box-images/PXL_20260921_201221772.jpg' | relative_url }}" class="glightbox" data-gallery="my-gallery">
-    <img src="{ '/assets/box-images/PXL_20260921_201221772.jpg' | relative_url }}" class="thumb" alt="Thumbnail 3">
+    <img src="{ '/assets/box-images/PXL_20260921_201221772.jpg' | relative_url }}" class="thumb" alt="Thumbnail 3" data-type="image">
   </a>
 </div>
 
