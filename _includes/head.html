@@ -20,22 +20,33 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 
 <style>
-  .gallery-hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    margin: 2em 0;
-  }
-  .gallery-hero .hero-main {
-    grid-row: span 3;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .gallery-hero .thumb {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.gallery-hero {
+  display: grid;
+  grid-template-columns: 2fr 1fr;   /* big column twice as wide as thumbs */
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  margin: 2em 0;
+  height: 500px;                    /* adjust to taste */
+}
+
+.gallery-hero a {
+  display: block;
+  overflow: hidden;
+}
+
+.gallery-hero .hero-main {
+  grid-row: 1 / 4;                  /* span all three rows */
+  grid-column: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;                /* crops to fill the box nicely */
+}
+
+.gallery-hero .thumb {
+  grid-column: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 </style>
 </head>
