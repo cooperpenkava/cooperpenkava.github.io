@@ -18,7 +18,14 @@
       {% endfor %}
     {% endif %}
 
-    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <script>
+    const lightbox = GLightbox({
+      selector: '.glightbox',
+      touchNavigation: true,
+      loop: true,
+      zoomable: true
+    });
+  </script>
     <script>
       const lightbox = GLightbox({
         selector: '.glightbox'
