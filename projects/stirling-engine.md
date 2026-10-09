@@ -9,6 +9,22 @@ _**Skills Used:**_
  - _**Iterative Design Improvement**_
  - _**Ignition System Safety**_
 
+
+<div class="gallery-hero">
+  <a href="/assets/stirling-engine-images/stirling-engine-big.gif" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/stirling-engine-images/stirling-engine-big.gif" class="hero-main" alt="Main Image">
+  </a>
+  <a href="/assets/stirling-engine-images/stirling-engine-1.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/stirling-engine-images/stirling-engine-1.jpg" class="thumb" alt="Thumbnail 1">
+  </a>
+  <a href="/assets/stirling-engine-images/stirling-engine-2.png" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/stirling-engine-images/stirling-engine-2.png" class="thumb" alt="Thumbnail 2">
+  </a>
+  <a href="/assets/stirling-engine-images/stirling-engine-3.png" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/stirling-engine-images/stirling-engine-3.png" class="thumb" alt="Thumbnail 3">
+  </a>
+</div>
+
 I made a Stirling engine in my Mechanical Design class! I was on a team of four, and I worked mostly on the heatsink design and CAD integration. For the engine, our goal was to maximize the power we could get out of the components we had been given and the small budget available to us. 
 
 For the heatsink, I worked to maximize the cooling we could get while staying in budget and manufacturable. I did this by designing radial fin geometry and forcing convection over the fins. I initially created my  design with findings from our MATLAB Simulink Model and used learnings from my Thermodynamics/Fluid Dynamics course for a course of action. I validated my approach using COMSOL and made changes to the fin geometry to experimentally approach an optimal solution. Along with improving thermal performance, I ensured that my component would not interfere with the needs of the displacer piston and other subsystems of the engine. On top of all of this, I made sure that the piece could be easily turned on the lathe and kept all features manufacturable.  
