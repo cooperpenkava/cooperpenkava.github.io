@@ -9,6 +9,21 @@ _**Skills Used:**_
  - _**Minimizing Mass and Cost**_
  - _**Mechanical Design - Motors**_
 
+<div class="gallery-hero">
+  <a href="/assets/grabber-images/grabber-big.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/grabber-images/grabber-big.jpg" class="hero-main" alt="Main Image">
+  </a>
+  <a href="/assets/grabber-images/grabber-1.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/grabber-images/grabber-3.jpg" class="thumb" alt="Thumbnail 1">
+  </a>
+  <a href="/assets/grabber-images/grabber-3.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/grabber-images/grabber-2.png" class="thumb" alt="Thumbnail 2">
+  </a>
+  <a href="/assets/grabber-images/grabber-3.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/grabber-images/grabber-3.jpg" class="thumb" alt="Thumbnail 3">
+  </a>
+</div>
+
 In my time at Olin's RoboLab, I worked on the competition-winning autonomous weeding robot for organic farms that need nimble, effective robotic solutions to weeds. We went all the way from problem to full-fledged solution - organic farmers were looking for ways to reduce the amount of back breaking labor for weeding, and we came up with a robot that could weed for them. I created the base that the robot ran out of and the brackets that attached the robot's base to the chassis. This kept me in contact with the engineers in charge of the arms so I could adjust for their needs. I also helped to spec out the motors based on the lever arm that we were creating by mounting our motors to the base.  
 [For pictures of our process... →](https://photos.app.goo.gl/WWmzEGBpjNXBerAg6)
 
