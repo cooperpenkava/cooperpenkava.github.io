@@ -16,8 +16,8 @@ _**Skills Used:**_
   <a href="/assets/scanner-images/scanner-1.png" class="glightbox" data-gallery="my-gallery">
     <img src="/assets/scanner-images/scanner-1.png" class="thumb" alt="Thumbnail 1">
   </a>
-  <a href="/assets/scanner-images/scanner-1.png" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/scanner-images/scanner-1.png" class="thumb" alt="Thumbnail 2">
+  <a href="assets/scanner-header.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="assets/scanner-header.jpg" class="thumb" alt="Thumbnail 2">
   </a>
   <a href="/assets/scanner-images/scanner-3.jpg" class="glightbox" data-gallery="my-gallery">
     <img src="/assets/scanner-images/scanner-3.jpg" class="thumb" alt="Thumbnail 3">
