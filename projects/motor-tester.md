@@ -12,7 +12,7 @@ _**Skills Used:**_
 
 <div class="gallery-hero">
   <a href="/assets/motor-tester-images/motor-tester-big.png" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/motor-tester-images/motor-tester-big.jpg" class="hero-main" alt="Main Image">
+    <img src="/assets/motor-tester-images/motor-tester-big.png" class="hero-main" alt="Main Image">
   </a>
   <a href="/assets/motor-tester-images/motor-tester-1.jpg" class="glightbox" data-gallery="my-gallery">
     <img src="/assets/motor-tester-images/motor-tester-1.jpg" class="thumb" alt="Thumbnail 1">
