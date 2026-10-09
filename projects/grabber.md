@@ -16,7 +16,7 @@ _**Skills Used:**_
   <a href="/assets/grabber-images/grabber-1.jpg" class="glightbox" data-gallery="my-gallery">
     <img src="/assets/grabber-images/grabber-1.jpg" class="thumb" alt="Thumbnail 1">
   </a>
-  <a href="/assets/grabber-images/grabber-3.jpg" class="glightbox" data-gallery="my-gallery">
+  <a href="/assets/grabber-images/grabber-2.jpg" class="glightbox" data-gallery="my-gallery">
     <img src="/assets/grabber-images/grabber-2.jpg" class="thumb" alt="Thumbnail 2">
   </a>
   <a href="/assets/grabber-images/grabber-3.jpg" class="glightbox" data-gallery="my-gallery">
