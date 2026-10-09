@@ -10,6 +10,21 @@ _**Skills Used:**_
  - _**Design for Manufacturing and Assembly**_
  - _**Modular Design**_
 
+<div class="gallery-hero">
+  <a href="/assets/motor-tester-images/motor-tester-big.png" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/motor-tester-images/motor-tester-big.jpg" class="hero-main" alt="Main Image">
+  </a>
+  <a href="/assets/motor-tester-images/motor-tester-1.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/motor-tester-images/motor-tester-1.jpg" class="thumb" alt="Thumbnail 1">
+  </a>
+  <a href="/assets/motor-tester-images/motor-tester-2.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/motor-tester-images/motor-tester-2.jpg" class="thumb" alt="Thumbnail 2">
+  </a>
+  <a href="/assets/motor-tester-images/motor-tester-2.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/motor-tester-images/motor-tester-2.jpg" class="thumb" alt="Thumbnail 3">
+  </a>
+</div>
+
 In my return internship at Virtual Incision, a surgical robotics company, I designed and fabricated a test rig for the manufacturing line to quickly test a robotic arm's motor torque, cautery connection, and pneumatic seal.
 
 The miniature surgical robot had motors that previously whose torque had only been assumed from line current values. I designed and built a fixture that the manufacturing and quality departments could load any robotic "forearm" into that used a torque sensor to read the throughput of motor output torque required to operate the tool end. I designed the fixture in SOLIDWORKS, created drawings to be submitted to a manufacturing company, and then assembled the fixture in house.
