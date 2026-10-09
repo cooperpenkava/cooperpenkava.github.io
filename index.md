@@ -56,7 +56,7 @@ title: Home
     
     {% include random-photo.html %}
 
-    <p><a href="/creative/old-folio">Check out my old portfolio while I build out my project pages! →</a></p>
+    <p><a href="/creative/old-folio">If you don't like this website format, check out my old pdf portfolio! →</a></p>
   </div>
   
   <div class="menu-column">
