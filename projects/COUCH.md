@@ -18,7 +18,7 @@ _**Skills Used:**_
     <img src="/assets/COUCH-images/COUCH-1.jpg" class="thumb" alt="Thumbnail 1">
   </a>
   <a href="/assets/COUCH-images/COUCH-3.jpg" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/COUCH-images/COUCH-3.png" class="thumb" alt="Thumbnail 2">
+    <img src="/assets/COUCH-images/COUCH-3.jpg" class="thumb" alt="Thumbnail 2">
   </a>
   <a href="/assets/COUCH-images/COUCH-3.jpg" class="glightbox" data-gallery="my-gallery">
     <img src="/assets/COUCH-images/COUCH-3.jpg" class="thumb" alt="Thumbnail 3">
