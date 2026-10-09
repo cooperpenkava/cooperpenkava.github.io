@@ -13,8 +13,8 @@ _**Skills Used:**_
   <a href="/assets/swish-images/swish-big.jpg" class="glightbox" data-gallery="my-gallery">
     <img src="/assets/swish-images/swish-big.jpg" class="hero-main" alt="Main Image">
   </a>
-  <a href="/assets/swish-images/swish-1.jpg" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/swish-images/swish-1.jpg" class="thumb" alt="Thumbnail 1">
+  <a href="/assets/swish-images/swish-1.JPG" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/swish-images/swish-1.JPG" class="thumb" alt="Thumbnail 1">
   </a>
   <a href="/assets/swish-images/swish-2.jpg" class="glightbox" data-gallery="my-gallery">
     <img src="/assets/swish-images/swish-2.jpg" class="thumb" alt="Thumbnail 2">
