@@ -14,14 +14,14 @@ _**Skills Used:**_
   <a href="/assets/COUCH-images/COUCH-big.jpg" class="glightbox" data-gallery="my-gallery">
     <img src="/assets/COUCH-images/COUCH-big.jpg" class="hero-main" alt="Main Image">
   </a>
-  <a href="/assets/box-images/COUCH-1.jpg" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/box-images/COUCH-3.jpg" class="thumb" alt="Thumbnail 1">
+  <a href="/assets/COUCH-images/COUCH-1.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/COUCH-images/COUCH-3.jpg" class="thumb" alt="Thumbnail 1">
   </a>
-  <a href="/assets/box-images/COUCH-3.jpg" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/box-images/COUCH-2.png" class="thumb" alt="Thumbnail 2">
+  <a href="/assets/COUCH-images/COUCH-3.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/COUCH-images/COUCH-2.png" class="thumb" alt="Thumbnail 2">
   </a>
-  <a href="/assets/box-images/COUCH-3.jpg" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/box-images/COUCH-3.jpg" class="thumb" alt="Thumbnail 3">
+  <a href="/assets/COUCH-images/COUCH-3.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/COUCH-images/COUCH-3.jpg" class="thumb" alt="Thumbnail 3">
   </a>
 </div>
 
