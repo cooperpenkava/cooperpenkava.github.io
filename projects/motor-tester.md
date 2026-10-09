@@ -20,8 +20,8 @@ _**Skills Used:**_
   <a href="/assets/motor-tester-images/motor-tester-2.jpg" class="glightbox" data-gallery="my-gallery">
     <img src="/assets/motor-tester-images/motor-tester-2.jpg" class="thumb" alt="Thumbnail 2">
   </a>
-  <a href="/assets/motor-tester-images/motor-tester-2.jpg" class="glightbox" data-gallery="my-gallery">
-    <img src="/assets/motor-tester-images/motor-tester-2.jpg" class="thumb" alt="Thumbnail 3">
+  <a href="assets/motor-tester-header.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="assets/motor-tester-header.jpg" class="thumb" alt="Thumbnail 3">
   </a>
 </div>
 
