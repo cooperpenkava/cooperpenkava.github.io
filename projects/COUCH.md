@@ -10,6 +10,21 @@ _**Skills Used:**_
  - _**Low Budget Workarounds**_
  - _**Multi-disciplinary Collaboration - Space claim, safety, system mechanics, ...**_
 
+<div class="gallery-hero">
+  <a href="/assets/COUCH-images/COUCH-big.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/COUCH-images/COUCH-big.jpg" class="hero-main" alt="Main Image">
+  </a>
+  <a href="/assets/box-images/COUCH-1.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/box-images/COUCH-3.jpg" class="thumb" alt="Thumbnail 1">
+  </a>
+  <a href="/assets/box-images/COUCH-3.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/box-images/COUCH-2.png" class="thumb" alt="Thumbnail 2">
+  </a>
+  <a href="/assets/box-images/COUCH-3.jpg" class="glightbox" data-gallery="my-gallery">
+    <img src="/assets/box-images/COUCH-3.jpg" class="thumb" alt="Thumbnail 3">
+  </a>
+</div>
+
 As a passion project, two of my friends and I collaborated to make a remote controlled chassis that could hold up to 450 pounds. We aptly put a couch on it and drove it around.
 
 I was in charge of everything mechanical - building the frame, speccing the motors, building the chain drive, designing/manufacturing wheel fixtures, and anything else that they didn't want to do. The other two were in charge of the electrical that drove the motors using a bunch of old batteries and the software that took our PS4 controllers inputs and used it to drive the wheels. Clearly, this project was quite budget limited, but we had drive (haha.) and a little financial help from our school's fund for passion projects. We were really happy with how it turned out by the end. I personally felt that I learned a lot from working with other disciplines in a system that relied on everything playing nice together. 
