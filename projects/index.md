@@ -63,7 +63,7 @@ permalink: /projects/
 
   <div class="project-item">
     <a href="/projects/phone-case">Cast Urethane Phone Case →</a>
-    <img src="assets/phone-case.jpg" alt="Cast Urethane Phone Case" class="hover-image">
+    <img src="assets/phone-case-header.JPG" alt="Cast Urethane Phone Case" class="hover-image">
   </div>
 
   <div class="project-item">
