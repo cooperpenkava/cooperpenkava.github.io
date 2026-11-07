@@ -62,6 +62,11 @@ permalink: /projects/
   </div>
 
   <div class="project-item">
+    <a href="/projects/phone-case">Cast Urethane Phone Case →</a>
+    <img src="assets/phone-case.jpg" alt="Cast Urethane Phone Case" class="hover-image">
+  </div>
+
+  <div class="project-item">
     <a href="/projects/solar">Modular Solar System →</a>
     <img src="assets/solar-header.png" alt="Modular Solar System" class="hover-image">
   </div>
