@@ -24,6 +24,7 @@ _**Skills Used:**_
     <img src="/assets/phone-case-images/phone-case-3.JPG" class="thumb" alt="Thumbnail 3">
   </a>
 </div>
+[For more pictures of our process... →](https://photos.app.goo.gl/7cwMRmoLqXJ7hbur7)
 
 For my Design for Manufacturing class, another student and I made a phone case for an iPhone SE Gen 3. 
 
@@ -46,8 +47,25 @@ There were three main challenges we faced in designing this phone case:
 2. Material Choice
    Material choice was paramount to the success of this project. For the vacuum formed plastic piece, we used a sheet of PETG, which of the materials we had in house, was going to give us the best chance of melt around the 3D printed mold and, for the same reasons, would be most compliant, allowing a little flexture when removing it from the mold. We wanted a soft plastic to absorb impacts when dropping the phone. We also wanted this to accommodate the parting line placement mentioned above, which required a material that could stretch or flex off of the phone shape. We initially identified Eco-Flex 30 based on its durometer, but we double checked it with an Eco-Flex sampler, and found that Eco-Flex 40 was a bit more preferable in that it felt less gummy, had picked up less dust over years of use, and was still squishy enough to achieve our design goals.  
 3. Pot Life
-   Unfortunately, we needed to move quickly. Eco-Flex has a pot life of 3 minutes. This meant that we had to organize our workspace very well, and also that waiting for the viscous material to flow through the small funnels was a non option. This is why we opted for the "pour and smash" method and then rapidly put it into the vacuum chamber to remove bubbles as quickly as possible. 
- 
+   Unfortunately, we needed to move quickly. Eco-Flex has a pot life of 3 minutes. This meant that we had to organize our workspace very well, and also that waiting for the viscous material to flow through the small funnels was a non option. This is why we opted for the "pour and smash" method and then rapidly put it into the vacuum chamber to remove bubbles as quickly as possible.
+
+Our cost analysis is as follows:
+Filament cost: (2.677 in^3 * $4.17/in3 ASA + 0.543 in^3 * 3.80/in^3 QSR) * 2 prints = $26.46
+Vacuum form plastic: $2.50 (makes 2)
+Design Hours: 8 (billable) hours * engineering hourly rate($31.08/hr) = $248.64
+1 package of Moldstar 16 silicone = $36.76
+80 mL of plastic/cast * 3 casts * $244.81/1 gal plastic * 1 gal/3785.41 mL = $15.52 
+45 minutes per cast * 3 casts * $31.08/60 minutes = $69.93
+Generic costs - aprons, gloves, cups, stir sticks, mold release = $20
+
+To make 100 of these, we the cost breakdown would be as follows:
+Total for our process: $419.81
+Fixed Costs: $311.86
+Variable Costs: $36.40 per unit ($23.31 of this is labor)
+For 100, 311.86 + 36.40*100 = 3951.86
+
+We think that a skilled caster could bring the time down to 20 minutes per cast with their expertise and a streamlined set up, which would bring our per unit cost down by a lot. Streamlining the process would be the name of the game, as the cure time must be worked around - as casts are curing, you can be working on new casts. Along with this, balancing the production of urethane casts with vacuum formed pieces is equally important. We learned a lot about casting with this project.
+
 [For pictures of our process... →](https://photos.app.goo.gl/7cwMRmoLqXJ7hbur7)
 
 [Back to all projects →](https://cooperpenkava.github.io/projects/)
