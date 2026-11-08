@@ -5,7 +5,7 @@ title: CNC Mill Paper Punch
 
 _**Skills Used:**_
  - **_CNC Milling_**
- - **_Fit Need Analysis_**
+ - **_Fit Analysis_**
  - **_High Efficiency Milling - 30 Minute Time Constraint_**
  - _**Tolerance Stackups**_
  - _**Technical Drafting**_
@@ -27,7 +27,7 @@ _**Skills Used:**_
 
 For my Design for Manufacturing class, I and another student made a star shaped paper punch, comprised of a negative and positive feature that went together via two dowel pins.
 
-Given that the two pieces came together to act as a paper punch, we build design requirements around this. Our design needed to:
+Given that the two pieces came together to act as a paper punch, we built our design requirements around this. Our design needed to:
  - have a positive and negative feature close enough to punch the paper
  - align easily, such that you could slam the top to punch the paper without interference  
 Additionally, as part of the class, we had additional given requirements. Our design also needed to:
