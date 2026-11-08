@@ -49,20 +49,20 @@ There were three main challenges we faced in designing this phone case:
 3. Pot Life
    Unfortunately, we needed to move quickly. Eco-Flex has a pot life of 3 minutes. This meant that we had to organize our workspace very well, and also that waiting for the viscous material to flow through the small funnels was a non option. This is why we opted for the "pour and smash" method and then rapidly put it into the vacuum chamber to remove bubbles as quickly as possible.
 
-Our cost analysis is as follows:
-Filament cost: (2.677 in^3 * $4.17/in3 ASA + 0.543 in^3 * 3.80/in^3 QSR) * 2 prints = $26.46
-Vacuum form plastic: $2.50 (makes 2)
-Design Hours: 8 (billable) hours * engineering hourly rate($31.08/hr) = $248.64
-1 package of Moldstar 16 silicone = $36.76
-80 mL of plastic/cast * 3 casts * $244.81/1 gal plastic * 1 gal/3785.41 mL = $15.52 
-45 minutes per cast * 3 casts * $31.08/60 minutes = $69.93
-Generic costs - aprons, gloves, cups, stir sticks, mold release = $20
+Our cost analysis is as follows:  
+Filament cost: (2.677 in^3 * $4.17/in3 ASA + 0.543 in^3 * 3.80/in^3 QSR) * 2 prints = $26.46  
+Vacuum form plastic: $2.50 (makes 2)  
+Design Hours: 8 (billable) hours * engineering hourly rate($31.08/hr) = $248.64  
+1 package of Moldstar 16 silicone = $36.76  
+80 mL of plastic/cast * 3 casts * $244.81/1 gal plastic * 1 gal/3785.41 mL = $15.52   
+45 minutes per cast * 3 casts * $31.08/60 minutes = $69.93  
+Generic costs - aprons, gloves, cups, stir sticks, mold release = $20  
 
-To make 100 of these, we the cost breakdown would be as follows:
-Total for our process: $419.81
-Fixed Costs: $311.86
-Variable Costs: $36.40 per unit ($23.31 of this is labor)
-For 100, 311.86 + 36.40*100 = 3951.86
+To make 100 of these, we the cost breakdown would be as follows:  
+Total for our process: $419.81  
+Fixed Costs: $311.86  
+Variable Costs: $36.40 per unit ($23.31 of this is labor)  
+For 100, 311.86 + 36.40*100 = 3951.86  
 
 We think that a skilled caster could bring the time down to 20 minutes per cast with their expertise and a streamlined set up, which would bring our per unit cost down by a lot. Streamlining the process would be the name of the game, as the cure time must be worked around - as casts are curing, you can be working on new casts. Along with this, balancing the production of urethane casts with vacuum formed pieces is equally important. We learned a lot about casting with this project.
 
