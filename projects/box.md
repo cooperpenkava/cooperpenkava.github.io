@@ -25,7 +25,7 @@ _**Skills Used:**_
   </a>
 </div>
 
-For my Design for Manufacturing class, I and another student made a star shaped paper punch, comprised of a negative and positive feature that went together via two dowel pins.
+For my Design for Manufacturing class, another student and I made a star shaped paper punch, comprised of a negative and positive feature that went together via two dowel pins.
 
 Given that the two pieces came together to act as a paper punch, we built our design requirements around this. Our design needed to:
  - have a positive and negative feature close enough to punch the paper
